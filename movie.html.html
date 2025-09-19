@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie?</title>
+<link rel="icon" type="image/png" href="https://contents.spin.ph/image/resize/image/2025/02/14/ustanggepoyos-1739518032.webp">
+<style>
+    body {
+        background-color: rgb(223, 232, 240);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        overflow: hidden;
+        color: rgb(5, 5, 5);
+    }
+
+    img {
+        width: 300px;
+        margin-bottom: 35px;
+    }
+    h1 {
+            margin-bottom: 0px;
+        }
+        h2 {
+            margin-bottom: 0px;
+        }
+        h3 {
+            margin-bottom: 0px;
+        }
+        h4 {
+            margin-bottom: 0px;
+        }
+       
+    .slide {
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+    }
+
+    /* Delays for each line */
+    .line1 { animation-delay: 0.5s; }
+    .line2 { animation-delay: 2s; }
+    .line3 { animation-delay: 3.5s; }
+    .line4 { animation-delay: 5s; }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    button {
+        padding: 20px 30px;
+        margin: 15px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    .okay {
+        background-color: #ebeae4;
+        color: rgb(0, 0, 0);
+    }
+
+    .not-okay {
+        background-color: #8b1109;
+        color: rgb(0, 0, 0);
+    }
+</style>
+</head>
+<body> 
+    <h1 class="slide line1">Since you wanted to hear my question:</h1>
+    <h2 class="slide line2">Movie (Horror) night later? if you're not busy</h2>
+    <h3 class="slide line3">around 10-11pm if that works for you?</h3>
+    <h4 class="slide line4">so that you can feel a little bit better?</h4>
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXBpeGxvdXpldHV0a2U1Y2h2OXM1d2h1NWw2emdha3B1Z2VsbGFyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iGSosyLzFl9BHBnsjF/giphy.gif" alt="Powerpuff Girl">
+   
+</body>
+</html>

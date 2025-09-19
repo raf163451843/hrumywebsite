@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main web</title>
+    <style>
+        body {
+            background-color: rgb(58, 126, 189);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 25px 30px;
+            margin: 15px;
+            font-size: 25px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .okay {
+            background-color: #ebeae4;
+            color: rgb(0, 0, 0);
+        }
+
+        .not-okay {
+            background-color: #8b1109;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi:> alynna!</h1>
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW5xZXdrNzc2NnZvZjA4emxmNzkzMzZzZGlkdjE3dTFuczlxNTB2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UpaxNpS4EI7fkBIGag/giphy.gif" alt="Powerpuff Girl">
+
+    <div>
+        <!-- Use relative paths -->
+        <button class="okay" onclick="window.location.href='main-yes.html.html'">I'm okay naman</button>
+        <button class="not-okay" onclick="window.location.href='main-no.html.html'">I'm okay naman but sofer dami isip sa world rn</button>
+    </div>
+</body>
+</html>
